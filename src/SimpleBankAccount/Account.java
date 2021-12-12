@@ -11,12 +11,14 @@ public class Account {
 		  // deposit
 		  public void deposit(double amount) {
 		    balance = balance + amount;
+		    System.out.println();
 		  }
 
 		  // withdraw 
 		  public void withdraw(double amount) {
 			  if (amount <= balance) {
 			      balance = balance - amount;
+			      System.out.println("You have withdrawn " + amount + " and have a balance of " + balance);
 			    }
 
 			    else {

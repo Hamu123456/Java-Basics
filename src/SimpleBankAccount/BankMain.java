@@ -14,7 +14,7 @@ public class BankMain {
 	    System.out.println("Customer 1 has a balance of " + cust1.getBalance());
 	    System.out.println("Customer 2 has a balance of " + cust2.getBalance());
 	    
-	    cust2.withdraw(400);
+	    cust2.withdraw(100);
 
 	}
 
